@@ -1,13 +1,13 @@
 import React from 'react'
 import Link from 'gatsby-link'
-import TopMenu from '../components/menunav'
 import styled from 'styled-components'
+import Img from "gatsby-image";
 
 const SecondPage = () => (
   <div>
-    <h1>Hi from the second page</h1>
+    <h1>Beneficios</h1>
     <p>Welcome to page 2</p>
-    <TopMenu/>
+    <Link to="/">Home</Link>
   </div>
 )
 

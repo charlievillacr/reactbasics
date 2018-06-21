@@ -1,22 +1,20 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import styled from 'styled-components'
-import TopMenu from '../components/menunav'
+import Img from "gatsby-image";
 
-const message = (props) => <div>{props.msg}</div>
-
+const Message = props => <div>{props.children}</div>
 
 const IndexPage = () => (
   <div>
-    <TopMenu/>
-    <h1>Hi people</h1>
+    <h1>Tarjetas de Crédito</h1>
     <p>Welcome to your new Gatsby site.</p>
     <p>Now go build something great.</p>
     <div className="container">
-      {message({msg: 'Hello World'})}
-      {message({msg: 'Goodbye World'})}
+      <Message>"Hello Chuck"</Message>
+      <Message>"Goodbye World"</Message>
     </div>
-    
+    <Link to="/page-2/">Go to page 2</Link>
   </div>
 )
 
