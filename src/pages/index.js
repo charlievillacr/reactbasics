@@ -5,16 +5,18 @@ import Img from "gatsby-image";
 
 const Message = props => <div>{props.children}</div>
 
+
 const IndexPage = () => (
   <div>
-    <h1>Tarjetas de Crédito</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
+    <h1>Introduction to The Beginner's Guide to ReactJS.</h1>
+    <h2>Create HTML elements with React's createElement API</h2>
+    <p>In this lesson we'll learn how to use raw React APIs to create the most basic Hello World example. React defines it’s own createElement function that we will see works similar to document.createElement. And in place of appendChild we will use ReactDOM's render function. We'll also learn a little bit about React props and the children prop</p>
     <div className="container">
-      <Message>"Hello Chuck"</Message>
-      <Message>"Goodbye World"</Message>
+      <Message>Hello Chuck</Message>
+      <Message>Goodbye World</Message>
     </div>
-    <Link to="/page-2/">Go to page 2</Link>
+    <Link to="/page-2/">Second Page</Link>
+    <Link to="/page-3/">Third Page</Link>
   </div>
 )
 

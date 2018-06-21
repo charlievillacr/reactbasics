@@ -5,14 +5,15 @@ import Img from "gatsby-image";
 import PropTypes from 'prop-types';
 
 
-const SecondPage = () => (
+const ThirdPage = () => (
   <div>
-    <h1>Second Page</h1>
+    <h1>Third Page</h1>
     <h2>Validate Custom React Component Props with PropTypes</h2>
-    <p>In this lesson, we'll learn how you can use the prop-types module to validate a custom React component's props. We will start by building out a Proptypes object that throws an error if the prop passed is not of the required type. Then, we will import the React team's prop-types module and look at some of the useful utilities it provides like isRequired. Function components define Proptypes off of a property while Class components define Proptypes off of a static method.</p>
-    <SayHelloAsClass firstName='Valor Class' />
-    <SayHelloAsFunction firstName='Guayo' lastName='Mena' />
-    <Link to="/">Page 1 - Home</Link>
+    <p>Con ayuda de Guayo</p>
+    <SayHelloAsClass firstName='Valor' />
+    <SayHelloAsFunction firstName='Carlos' lastName='Villalobos' />
+    <Link to="/">Index Page</Link>
+    <Link to="/page-2/">Second Page</Link>
     <Link to="/page-3/">Third Page</Link>
   </div>
 )
@@ -46,7 +47,4 @@ class SayHelloAsClass extends React.Component {
 }
 
 
-
-export default SecondPage 
-
-    
+export default ThirdPage
