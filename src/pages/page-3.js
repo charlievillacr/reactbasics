@@ -12,10 +12,11 @@ const ThirdPage = () => (
     <p>Con ayuda de Guayo</p>
     <SayHelloAsClass firstName='Maria' lastName='Perez' />
     <SayHelloAsFunction firstName='Carlos' lastName='Villalobos' />
-    <Link to="/">Index Page</Link>
+    <Link to="/">Home Page</Link>
     <Link to="/page-2/">Second Page</Link>
     <Link to="/page-3/">Third Page</Link>
     <Link to="/page-4/">Fourth Page</Link>
+    <Link to="/page-5/">Fifth Page</Link>
   </div>
 )
 

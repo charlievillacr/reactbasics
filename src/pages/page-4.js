@@ -18,16 +18,17 @@ function Message({message}) {
 
 const FourthPage = () => (
     <div>
-        <h1>Fourth Page</h1>
-        <h2>Conditionally Render A React Component</h2>
+        <h1>Conditionally Render A React Component</h1>
+        <h2>Fourth Page</h2>
         <p>In this lesson, we will explore JSX a little further by looking at how to conditionally render JSX with a Javascript ternary operator. We will see how JSX is simply syntax sugar on top of the React API: React.createElement.</p>
 
         {/* <Message message={"Hi Bruh"} /> */}
         <Message message={null} />
-
-        <Link to="/">Index Page</Link>
+        <Link to="/">Home Page</Link>
         <Link to="/page-2/">Second Page</Link>
         <Link to="/page-3/">Third Page</Link>
+        <Link to="/page-4/">Fourth Page</Link>
+        <Link to="/page-5/">Fifth Page</Link>
     </div>
 )
 

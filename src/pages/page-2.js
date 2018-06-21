@@ -12,9 +12,11 @@ const SecondPage = () => (
     <p>In this lesson, we'll learn how you can use the prop-types module to validate a custom React component's props. We will start by building out a Proptypes object that throws an error if the prop passed is not of the required type. Then, we will import the React team's prop-types module and look at some of the useful utilities it provides like isRequired. Function components define Proptypes off of a property while Class components define Proptypes off of a static method.</p>
     <SayHelloAsClass firstName='Hannia' lastName='Jimenez' />
     <SayHello firstName='Guayo' />
-    <Link to="/">Page 1 - Home</Link>
+    <Link to="/">Home Page</Link>
+    <Link to="/page-2/">Second Page</Link>
     <Link to="/page-3/">Third Page</Link>
     <Link to="/page-4/">Fourth Page</Link>
+    <Link to="/page-5/">Fifth Page</Link>
   </div>
 )
 
