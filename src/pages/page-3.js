@@ -10,11 +10,12 @@ const ThirdPage = () => (
     <h1>Third Page</h1>
     <h2>Validate Custom React Component Props with PropTypes</h2>
     <p>Con ayuda de Guayo</p>
-    <SayHelloAsClass firstName='Valor' />
+    <SayHelloAsClass firstName='Maria' lastName='Perez' />
     <SayHelloAsFunction firstName='Carlos' lastName='Villalobos' />
     <Link to="/">Index Page</Link>
     <Link to="/page-2/">Second Page</Link>
     <Link to="/page-3/">Third Page</Link>
+    <Link to="/page-4/">Fourth Page</Link>
   </div>
 )
 
