@@ -4,14 +4,13 @@ import styled from 'styled-components'
 import PropTypes from 'prop-types'
 
 function Message({message}) {
-   if (!message) {
-    return React.createElement(
+    return message 
+    ? React.createElement('div', null, message)
+    : React.createElement(
         'div',
         null,
         'No Message',
     )
-   }
-    return React.createElement('div', null, message)
 }
 
 
